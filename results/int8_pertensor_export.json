@@ -1,0 +1,10 @@
+{
+  "source": "D:\\extracurriculars\\Medi-Guard\\models\\mediguard-onnx\\model.onnx",
+  "output": "D:\\extracurriculars\\Medi-Guard\\models\\mediguard-onnx\\model.int8_pertensor.onnx",
+  "source_bytes": 438176238,
+  "output_bytes": 181777315,
+  "size_reduction_fraction": 0.5851502221350487,
+  "quantization": "dynamic INT8, per-tensor, MatMul",
+  "onnx_check": "passed",
+  "clinical_validation": false
+}

@@ -1,0 +1,6 @@
+Project: MediGuard AI
+Dataset: DDI Corpus
+Pretrained model: microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext
+Python environment: .venv
+GPU training: CUDA-enabled PyTorch
+Training status: Not yet started

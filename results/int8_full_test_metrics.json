@@ -1,0 +1,99 @@
+{
+  "dataset": "existing official DDI test split",
+  "examples": 6657,
+  "threshold": 0.5,
+  "original_pytorch": {
+    "accuracy": 0.9652996845425867,
+    "positive_precision": 0.865234375,
+    "positive_recall": 0.9050051072522982,
+    "positive_f1": 0.8846729905142287,
+    "pr_auc_average_precision": 0.9369310221137157,
+    "roc_auc": 0.9866273281712726,
+    "confusion_matrix": [
+      [
+        5540,
+        138
+      ],
+      [
+        93,
+        886
+      ]
+    ],
+    "classification_report": {
+      "no_annotated_DDI": {
+        "precision": 0.9834901473459968,
+        "recall": 0.9756956674885523,
+        "f1-score": 0.9795774025285121,
+        "support": 5678.0
+      },
+      "annotated_DDI": {
+        "precision": 0.865234375,
+        "recall": 0.9050051072522982,
+        "f1-score": 0.8846729905142287,
+        "support": 979.0
+      },
+      "accuracy": 0.9652996845425867,
+      "macro avg": {
+        "precision": 0.9243622611729985,
+        "recall": 0.9403503873704253,
+        "f1-score": 0.9321251965213704,
+        "support": 6657.0
+      },
+      "weighted avg": {
+        "precision": 0.9660990701150023,
+        "recall": 0.9652996845425867,
+        "f1-score": 0.9656204520460149,
+        "support": 6657.0
+      }
+    }
+  },
+  "quantized_int8": {
+    "accuracy": 0.964398377647589,
+    "positive_precision": 0.8644400785854617,
+    "positive_recall": 0.898876404494382,
+    "positive_f1": 0.8813219829744617,
+    "pr_auc_average_precision": 0.9375471925675808,
+    "roc_auc": 0.9864504002869703,
+    "confusion_matrix": [
+      [
+        5540,
+        138
+      ],
+      [
+        99,
+        880
+      ]
+    ],
+    "classification_report": {
+      "no_annotated_DDI": {
+        "precision": 0.9824436956907253,
+        "recall": 0.9756956674885523,
+        "f1-score": 0.9790580542546611,
+        "support": 5678.0
+      },
+      "annotated_DDI": {
+        "precision": 0.8644400785854617,
+        "recall": 0.898876404494382,
+        "f1-score": 0.8813219829744617,
+        "support": 979.0
+      },
+      "accuracy": 0.964398377647589,
+      "macro avg": {
+        "precision": 0.9234418871380935,
+        "recall": 0.9372860359914672,
+        "f1-score": 0.9301900186145614,
+        "support": 6657.0
+      },
+      "weighted avg": {
+        "precision": 0.9650897012268448,
+        "recall": 0.964398377647589,
+        "f1-score": 0.9646846707811272,
+        "support": 6657.0
+      }
+    }
+  },
+  "pytorch_int8_class_agreement": 0.9957939011566772,
+  "matching_class_predictions": 6629,
+  "maximum_probability_difference": 0.8921876549720764,
+  "note": "Benchmark comparison on annotated DDI text records. Not patient-level validation or proof of medication safety."
+}

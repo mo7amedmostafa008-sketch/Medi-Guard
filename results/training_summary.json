@@ -1,0 +1,19 @@
+{
+  "model_source": "D:\\extracurriculars\\Medi-Guard\\models\\biomedbert-base",
+  "saved_model": "D:\\extracurriculars\\Medi-Guard\\models\\mediguard-ddi",
+  "official_test_used_during_training": false,
+  "seed": 42,
+  "max_length": 256,
+  "batch_size": 8,
+  "gradient_accumulation": 2,
+  "epochs_requested": 3,
+  "best_epoch_by_validation_f1": 2,
+  "best_validation_f1": 0.9045643153526971,
+  "training_rows": 24812,
+  "validation_rows": 2980,
+  "training_class_counts": {
+    "0": 21138,
+    "1": 3674
+  },
+  "history_file": "D:\\extracurriculars\\Medi-Guard\\results\\training_history.json"
+}

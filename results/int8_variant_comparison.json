@@ -1,0 +1,86 @@
+{
+  "test_examples": 6657,
+  "threshold": 0.5,
+  "metrics": {
+    "onnx_fp32": {
+      "accuracy": 0.9652996845425867,
+      "positive_precision": 0.865234375,
+      "positive_recall": 0.9050051072522982,
+      "positive_f1": 0.8846729905142287,
+      "pr_auc_average_precision": 0.9369310111932003,
+      "roc_auc": 0.9866273281712725,
+      "confusion_matrix": [
+        [
+          5540,
+          138
+        ],
+        [
+          93,
+          886
+        ]
+      ]
+    },
+    "int8_per_channel": {
+      "accuracy": 0.964398377647589,
+      "positive_precision": 0.8644400785854617,
+      "positive_recall": 0.898876404494382,
+      "positive_f1": 0.8813219829744617,
+      "pr_auc_average_precision": 0.9375471925675808,
+      "roc_auc": 0.9864504002869703,
+      "confusion_matrix": [
+        [
+          5540,
+          138
+        ],
+        [
+          99,
+          880
+        ]
+      ]
+    },
+    "int8_per_tensor": {
+      "accuracy": 0.9657503379900856,
+      "positive_precision": 0.8706811451135242,
+      "positive_recall": 0.9009193054136875,
+      "positive_f1": 0.8855421686746988,
+      "pr_auc_average_precision": 0.9319697223343351,
+      "roc_auc": 0.9860849412153281,
+      "confusion_matrix": [
+        [
+          5547,
+          131
+        ],
+        [
+          97,
+          882
+        ]
+      ]
+    }
+  },
+  "comparison_to_fp32": {
+    "onnx_fp32": {
+      "class_agreement": 1.0,
+      "class_disagreements": 0,
+      "max_absolute_probability_difference": 0.0,
+      "mean_absolute_probability_difference": 0.0
+    },
+    "int8_per_channel": {
+      "class_agreement": 0.9957939011566772,
+      "class_disagreements": 28,
+      "max_absolute_probability_difference": 0.8921868205070496,
+      "mean_absolute_probability_difference": 0.00456324964761734
+    },
+    "int8_per_tensor": {
+      "class_agreement": 0.9920384557608533,
+      "class_disagreements": 53,
+      "max_absolute_probability_difference": 0.932691216468811,
+      "mean_absolute_probability_difference": 0.007507778238505125
+    }
+  },
+  "model_sizes_bytes": {
+    "onnx_fp32": 438176238,
+    "int8_per_channel": 182196249,
+    "int8_per_tensor": 181777315
+  },
+  "note": "Held-out DDI text benchmark only; not clinical validation or proof of patient-level medication safety."
+}

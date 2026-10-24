@@ -1,0 +1,592 @@
+{
+  "quantization": "dynamic INT8 weights",
+  "onnx_checker_passed": true,
+  "examples_compared": 64,
+  "matching_predicted_classes": 64,
+  "class_agreement": 1.0,
+  "all_classes_match": true,
+  "max_absolute_logit_difference": 0.7631015777587891,
+  "max_absolute_probability_difference": 0.020530134439468384,
+  "original_onnx_size_bytes": 438176238,
+  "int8_onnx_size_bytes": 182196249,
+  "size_reduction_percent": 58.41941365154538,
+  "comparisons": [
+    {
+      "example": 1,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07476353645324707,
+      "max_probability_absolute_difference": 5.384421092458069e-05
+    },
+    {
+      "example": 2,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07493162155151367,
+      "max_probability_absolute_difference": 9.655952453613281e-06
+    },
+    {
+      "example": 3,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03808879852294922,
+      "max_probability_absolute_difference": 0.00010716915130615234
+    },
+    {
+      "example": 4,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04232358932495117,
+      "max_probability_absolute_difference": 5.602836608886719e-06
+    },
+    {
+      "example": 5,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.05429410934448242,
+      "max_probability_absolute_difference": 7.152557373046875e-06
+    },
+    {
+      "example": 6,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.047736167907714844,
+      "max_probability_absolute_difference": 4.994457412976772e-06
+    },
+    {
+      "example": 7,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03698301315307617,
+      "max_probability_absolute_difference": 4.652742063626647e-06
+    },
+    {
+      "example": 8,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07602930068969727,
+      "max_probability_absolute_difference": 1.0138755897060037e-05
+    },
+    {
+      "example": 9,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04545259475708008,
+      "max_probability_absolute_difference": 7.070302672218531e-06
+    },
+    {
+      "example": 10,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.1056365966796875,
+      "max_probability_absolute_difference": 2.0265579223632812e-05
+    },
+    {
+      "example": 11,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.0691981315612793,
+      "max_probability_absolute_difference": 5.602836608886719e-06
+    },
+    {
+      "example": 12,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.047237396240234375,
+      "max_probability_absolute_difference": 6.242429662961513e-06
+    },
+    {
+      "example": 13,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.06349706649780273,
+      "max_probability_absolute_difference": 3.4570693969726562e-06
+    },
+    {
+      "example": 14,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.062070369720458984,
+      "max_probability_absolute_difference": 7.114977051969618e-06
+    },
+    {
+      "example": 15,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.008948564529418945,
+      "max_probability_absolute_difference": 8.344650268554688e-07
+    },
+    {
+      "example": 16,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.05800771713256836,
+      "max_probability_absolute_difference": 4.784742486663163e-06
+    },
+    {
+      "example": 17,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.05602884292602539,
+      "max_probability_absolute_difference": 9.103270713239908e-06
+    },
+    {
+      "example": 18,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.027655601501464844,
+      "max_probability_absolute_difference": 1.741875894367695e-05
+    },
+    {
+      "example": 19,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04578542709350586,
+      "max_probability_absolute_difference": 5.05350180901587e-06
+    },
+    {
+      "example": 20,
+      "true_label": 0,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.038056373596191406,
+      "max_probability_absolute_difference": 0.00032095005735754967
+    },
+    {
+      "example": 21,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04638481140136719,
+      "max_probability_absolute_difference": 5.0067901611328125e-06
+    },
+    {
+      "example": 22,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03459787368774414,
+      "max_probability_absolute_difference": 4.688030458055437e-06
+    },
+    {
+      "example": 23,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.7631015777587891,
+      "max_probability_absolute_difference": 0.009972691535949707
+    },
+    {
+      "example": 24,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03331327438354492,
+      "max_probability_absolute_difference": 5.0137605285272e-06
+    },
+    {
+      "example": 25,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.19744038581848145,
+      "max_probability_absolute_difference": 0.0001768423244357109
+    },
+    {
+      "example": 26,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.09632396697998047,
+      "max_probability_absolute_difference": 3.590172855183482e-05
+    },
+    {
+      "example": 27,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.047411441802978516,
+      "max_probability_absolute_difference": 4.065805114805698e-06
+    },
+    {
+      "example": 28,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.06122779846191406,
+      "max_probability_absolute_difference": 1.1444091796875e-05
+    },
+    {
+      "example": 29,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03747892379760742,
+      "max_probability_absolute_difference": 2.829372533597052e-06
+    },
+    {
+      "example": 30,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07152700424194336,
+      "max_probability_absolute_difference": 7.152557373046875e-06
+    },
+    {
+      "example": 31,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04556989669799805,
+      "max_probability_absolute_difference": 4.172325134277344e-06
+    },
+    {
+      "example": 32,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.06110334396362305,
+      "max_probability_absolute_difference": 6.698384822811931e-06
+    },
+    {
+      "example": 33,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.028406620025634766,
+      "max_probability_absolute_difference": 6.032560486346483e-05
+    },
+    {
+      "example": 34,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07265853881835938,
+      "max_probability_absolute_difference": 1.0672658390831202e-05
+    },
+    {
+      "example": 35,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.2711155414581299,
+      "max_probability_absolute_difference": 0.00031554827000945807
+    },
+    {
+      "example": 36,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.019908905029296875,
+      "max_probability_absolute_difference": 2.8028443921357393e-06
+    },
+    {
+      "example": 37,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.0228116512298584,
+      "max_probability_absolute_difference": 1.2494332622736692e-05
+    },
+    {
+      "example": 38,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.0797574520111084,
+      "max_probability_absolute_difference": 0.00034314393997192383
+    },
+    {
+      "example": 39,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.026275157928466797,
+      "max_probability_absolute_difference": 1.9073486328125e-06
+    },
+    {
+      "example": 40,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04525613784790039,
+      "max_probability_absolute_difference": 7.033348083496094e-06
+    },
+    {
+      "example": 41,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.043830156326293945,
+      "max_probability_absolute_difference": 5.8591365814208984e-05
+    },
+    {
+      "example": 42,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03690671920776367,
+      "max_probability_absolute_difference": 2.0503997802734375e-05
+    },
+    {
+      "example": 43,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.032944440841674805,
+      "max_probability_absolute_difference": 8.386373519897461e-05
+    },
+    {
+      "example": 44,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.09079265594482422,
+      "max_probability_absolute_difference": 9.462550224270672e-06
+    },
+    {
+      "example": 45,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07881927490234375,
+      "max_probability_absolute_difference": 1.0411997209303081e-05
+    },
+    {
+      "example": 46,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.06525039672851562,
+      "max_probability_absolute_difference": 1.6018704627640545e-05
+    },
+    {
+      "example": 47,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.041716575622558594,
+      "max_probability_absolute_difference": 1.6689300537109375e-06
+    },
+    {
+      "example": 48,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.03648233413696289,
+      "max_probability_absolute_difference": 1.8293794710189104e-06
+    },
+    {
+      "example": 49,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07414674758911133,
+      "max_probability_absolute_difference": 6.113848940003663e-06
+    },
+    {
+      "example": 50,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.1717376708984375,
+      "max_probability_absolute_difference": 4.992156755179167e-05
+    },
+    {
+      "example": 51,
+      "true_label": 1,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.0910336971282959,
+      "max_probability_absolute_difference": 0.00012797117233276367
+    },
+    {
+      "example": 52,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04863572120666504,
+      "max_probability_absolute_difference": 0.00012874603271484375
+    },
+    {
+      "example": 53,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.04317140579223633,
+      "max_probability_absolute_difference": 3.0994415283203125e-06
+    },
+    {
+      "example": 54,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.027295827865600586,
+      "max_probability_absolute_difference": 5.5267009884119034e-05
+    },
+    {
+      "example": 55,
+      "true_label": 1,
+      "pytorch_class": 1,
+      "int8_class": 1,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.4080249071121216,
+      "max_probability_absolute_difference": 0.020530134439468384
+    },
+    {
+      "example": 56,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07264280319213867,
+      "max_probability_absolute_difference": 9.775161743164062e-06
+    },
+    {
+      "example": 57,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.06561946868896484,
+      "max_probability_absolute_difference": 9.256313205696642e-06
+    },
+    {
+      "example": 58,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.058110713958740234,
+      "max_probability_absolute_difference": 5.413712642621249e-06
+    },
+    {
+      "example": 59,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.024733543395996094,
+      "max_probability_absolute_difference": 4.0531158447265625e-06
+    },
+    {
+      "example": 60,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.016497135162353516,
+      "max_probability_absolute_difference": 1.4671022654511034e-06
+    },
+    {
+      "example": 61,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.09958577156066895,
+      "max_probability_absolute_difference": 9.012222290039062e-05
+    },
+    {
+      "example": 62,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.27579188346862793,
+      "max_probability_absolute_difference": 0.004169166088104248
+    },
+    {
+      "example": 63,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.11114168167114258,
+      "max_probability_absolute_difference": 0.00013941526412963867
+    },
+    {
+      "example": 64,
+      "true_label": 0,
+      "pytorch_class": 0,
+      "int8_class": 0,
+      "classes_match": true,
+      "max_logit_absolute_difference": 0.07464313507080078,
+      "max_probability_absolute_difference": 0.00011658668518066406
+    }
+  ],
+  "note": "Sampled technical comparison only. Not full benchmark reevaluation, clinical validation, or proof of medication safety."
+}

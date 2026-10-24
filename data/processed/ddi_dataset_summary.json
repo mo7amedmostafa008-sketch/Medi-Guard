@@ -1,0 +1,32 @@
+{
+  "source": "D:\\extracurriculars\\Medi-Guard\\data\\raw\\ddi_corpus\\extracted\\DDICorpus",
+  "files_found": 1017,
+  "partitions": {
+    "train": {
+      "records": 27792,
+      "negative_label_0": 23771,
+      "positive_label_1": 4021,
+      "positive_relation_types": {
+        "effect": 1687,
+        "advise": 826,
+        "mechanism": 1319,
+        "int": 188,
+        "null": 1
+      },
+      "output_file": "D:\\extracurriculars\\Medi-Guard\\data\\processed\\ddi_train.jsonl"
+    },
+    "test": {
+      "records": 6657,
+      "negative_label_0": 5678,
+      "positive_label_1": 979,
+      "positive_relation_types": {
+        "mechanism": 302,
+        "effect": 360,
+        "advise": 221,
+        "int": 96
+      },
+      "output_file": "D:\\extracurriculars\\Medi-Guard\\data\\processed\\ddi_test.jsonl"
+    }
+  },
+  "warnings": []
+}

@@ -1,0 +1,68 @@
+﻿node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+
+# Python environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Generated files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large model weights — keep locally, don't upload through ordinary Git
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# Local Git backup
+.git-backup/
+
+# Downloaded datasets
+data/raw/
